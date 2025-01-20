@@ -93,13 +93,13 @@ namespace Assignment07C_OOP04
 
             #region  Question 3 :
 
-            INotificationService emailService = new EmailNotificationService();
-            INotificationService smsService = new SmsNotificationService();
-            INotificationService pushService = new PushNotificationService();
+            //INotificationService emailService = new EmailNotificationService();
+            //INotificationService smsService = new SmsNotificationService();
+            //INotificationService pushService = new PushNotificationService();
 
-            emailService.SendNotification("shorouqmohy11@gmail.com", "I hope you have a good day");
-            smsService.SendNotification("01050914732", "I hope you have a good day");
-            pushService.SendNotification("user_id", "I hope you have a good day");
+            //emailService.SendNotification("shorouqmohy11@gmail.com", "I hope you have a good day");
+            //smsService.SendNotification("01050914732", "I hope you have a good day");
+            //pushService.SendNotification("user_id", "I hope you have a good day");
 
 
             #endregion
