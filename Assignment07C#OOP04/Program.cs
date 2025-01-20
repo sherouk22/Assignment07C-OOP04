@@ -1,5 +1,6 @@
 ﻿using System.Drawing;
 using Assignment07C_OOP04.Question_01;
+using Assignment07C_OOP04.Question_02;
 
 namespace Assignment07C_OOP04
 {
@@ -62,7 +63,7 @@ namespace Assignment07C_OOP04
             #endregion
 
             //Part02
-            #region  Question 2 :
+            #region  Question 1 :
 
             //Rectanglee rect = new Rectanglee(5, 6);
 
@@ -70,6 +71,22 @@ namespace Assignment07C_OOP04
 
             //Circle circle = new Circle(5);
             //circle.DisplayShapeInfo();
+
+            #endregion
+
+            #region  Question 2 :
+
+
+            //IAuthenticationService NewService = new BasicAuthenticationService("Sherouk", "12345", "admin");
+
+            //string Username = "Sherouk";
+            //string Password = "12345";
+
+            //Console.WriteLine($"User {Username} authentication: {NewService.AuthenticateUser(Username,Password)}");
+
+            //string role = "admin";
+            //Console.WriteLine($"User {Username} authorization for role '{NewService.AuthorizeUser(Username, role)}");
+
 
             #endregion
 
