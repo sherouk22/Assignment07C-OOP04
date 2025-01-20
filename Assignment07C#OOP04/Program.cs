@@ -1,4 +1,7 @@
-﻿namespace Assignment07C_OOP04
+﻿using System.Drawing;
+using Assignment07C_OOP04.Question_01;
+
+namespace Assignment07C_OOP04
 {
     internal class Program
     {
@@ -56,6 +59,18 @@
             #region Question 10: How can a C# class implement multiple interfaces?
             // Answer:
             //c) By separating interface names with commas
+            #endregion
+
+            //Part02
+            #region  Question 2 :
+
+            //Rectanglee rect = new Rectanglee(5, 6);
+
+            //rect.DisplayShapeInfo();
+
+            //Circle circle = new Circle(5);
+            //circle.DisplayShapeInfo();
+
             #endregion
 
 
