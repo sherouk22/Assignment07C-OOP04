@@ -1,6 +1,7 @@
 ﻿using System.Drawing;
 using Assignment07C_OOP04.Question_01;
 using Assignment07C_OOP04.Question_02;
+using Assignment07C_OOP04.Question_03;
 
 namespace Assignment07C_OOP04
 {
@@ -86,6 +87,19 @@ namespace Assignment07C_OOP04
 
             //string role = "admin";
             //Console.WriteLine($"User {Username} authorization for role '{NewService.AuthorizeUser(Username, role)}");
+
+
+            #endregion
+
+            #region  Question 3 :
+
+            INotificationService emailService = new EmailNotificationService();
+            INotificationService smsService = new SmsNotificationService();
+            INotificationService pushService = new PushNotificationService();
+
+            emailService.SendNotification("shorouqmohy11@gmail.com", "I hope you have a good day");
+            smsService.SendNotification("01050914732", "I hope you have a good day");
+            pushService.SendNotification("user_id", "I hope you have a good day");
 
 
             #endregion
